@@ -48,6 +48,22 @@ air
 
 This will watch for file changes and automatically restart the server.
 
+---
+
+## Using Environment Variables
+
+This project uses [godotenv](https://github.com/joho/godotenv) to load environment variables from a `.env` file.
+
+### Example `.env` file:
+
+```env
+PORT=:8080
+```
+
+If no port is set, it will fallback to `:8080` by default.
+
+---
+
 ## Available Endpoints
 
 ### Health Check
