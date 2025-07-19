@@ -1,7 +1,22 @@
+
+
+```md
 # go-example-api
 
-#Run the api 
-go run ./cmd/api/*.go
+A simple example API built with Go.
 
-Endpoint
-curl --location 'http://localhost:8080/v1/health'
+## Running the API
+
+```bash
+go run ./cmd/api/*.go
+```
+
+## Available Endpoints
+
+### Health Check
+
+```bash
+curl http://localhost:8080/v1/health
+```
+```
+
